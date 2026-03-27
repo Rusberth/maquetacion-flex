@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+
+.bloque1{
+    display: flex;    
+
+}
+.bloque{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: beige;
+    text-align: center;
+    align-content: center;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.botones{
+    margin-top: 10px;
+}
+
+.cajas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja{
+    width: 30%;
+    text-align: center;
+}
+
+.image{
+    background:beige;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.final{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linea{
+    width: 100%;
+    background: beige;
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.columna{
+    text-align: center;
+    width: 23%;
+}
